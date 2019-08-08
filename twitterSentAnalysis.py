@@ -10,10 +10,10 @@ Created on Thu May  9 21:42:49 2019
 import twitter
 
 # initialize api instance
-twitter_api = twitter.Api(consumer_key='kz9GWnuWtv62JnZixm11GToXe',
-                        consumer_secret='7701Tz6yxTQcmE4bBf80UafEJGtKvbsKrhfgDl5TmJJHM7y3Nx',
-                        access_token_key='73541775-4NQkaqKAvcyRZWoGJbdUCZ7ZeBYcByw0Ms6aJVHmC',
-                        access_token_secret='MtkHU4Zzpka43415ZL5tDlUXc3JbmPHzBTCzmXDAiHfV8')
+twitter_api = twitter.Api(consumer_key='',
+                        consumer_secret='',
+                        access_token_key='',
+                        access_token_secret='')
 
 # test authentication
 print(twitter_api.VerifyCredentials())
